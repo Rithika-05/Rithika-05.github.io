@@ -1,0 +1,61 @@
+/* Static Positioning */
+.static-box {
+    position: static;
+    background-color: lightgray;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* Relative Positioning */
+  .relative-box {
+    position: relative;
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* Absolute Positioning */
+  .absolute-box {
+    position: absolute;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    top: 150px;
+    left: 250px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* Sticky Positioning */
+  .sticky-box {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* Fixed Positioning */
+  .fixed-box {
+    position: fixed;
+    background-color: lightyellow;
+    width: 200px;
+    height: 100px;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
